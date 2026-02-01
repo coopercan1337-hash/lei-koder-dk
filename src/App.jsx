@@ -1,4 +1,5 @@
 import './index.css'
+import CookieConsent from './CookieConsent'
 
 function App() {
   return (
@@ -169,6 +170,9 @@ function App() {
           </div>
         </div>
       </footer>
+
+      {/* Cookie Consent */}
+      <CookieConsent />
     </div>
   )
 }
